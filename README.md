@@ -16,18 +16,27 @@ This project proposes a novel method for uncovering latent influence in social n
 ## 🗂 Directory Structure
 
 ```
-├── data/                  # Dataset files or download scripts
-├── src/                   # Core LIN and LIDET implementations
-├── experiments/           # Experiment configurations and runners
-├── results/               # Outputs, metrics, and model evaluations
-├── figures/               # Plots and visualizations
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+├── Covid_result_example/     # Output examples on COVID-19 dataset
+├── Data_example/             # Sample datasets and ID-based examples
+├── ipynb/                    # Jupyter notebooks demonstrating LIN/LIDET
+├── LIN_example/              # Core LIN model implementation and demos
+├── requirements.txt          # Python dependencies
+└── README.md                 # Project documentation
 ```
+
 
 ## 📊 Datasets
 
-The framework supports multiple datasets. Instructions for obtaining and preprocessing them are provided in `data/README.md`.
+Due to Twitter's data sharing policies, only sample data are included in `Data_example/`. You may need to rehydrate them using tools like `twarc`.
+
+## 📓 Notebooks
+
+All core implementation examples, evaluations, and visualizations are provided in the `ipynb/` directory. These include:
+- Influence network construction
+- Parameter selection for LIDET
+- Classification evaluation
+
+Currently, the notebooks cover preprocessing and modeling for the Twitter15 and Twitter16 datasets. Additional notebooks (e.g., for COVID-19 ) are still being organized and will be added soon.
 
 ## 📈 Key Features
 
@@ -35,6 +44,13 @@ The framework supports multiple datasets. Instructions for obtaining and preproc
 - Achieves **99% classification accuracy** on COVID-19 Twitter data.
 - Generalizes across multiple real-world datasets.
 
+## ⚙️ Dependencies
+
+Install required packages using:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## 📬 Contact
 
