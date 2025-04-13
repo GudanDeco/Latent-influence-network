@@ -25,22 +25,6 @@ This project proposes a novel method for uncovering latent influence in social n
 └── README.md              # Project documentation
 ```
 
-## 🚀 Quick Start
-
-1. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
-
-2. **Run an experiment:**
-
-```bash
-python src/run_lidet.py --dataset covid19 --output results/covid19/
-```
-
-> Modify configurations in `src/config.py` as needed.
-
 ## 📊 Datasets
 
 The framework supports multiple datasets. Instructions for obtaining and preprocessing them are provided in `data/README.md`.
