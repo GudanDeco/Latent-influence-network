@@ -1,11 +1,10 @@
 
 # Latent Influence Network (LIN) and LIDET Framework
 
-This repository contains the implementation of the **Latent Influence Network (LIN)** and the **Latent Influence Detection Framework (LIDET)**, introduced in our AAAI 2025 paper.
+This repository contains the implementation of the **Latent Influence Network (LIN)** and the **Latent Influence Detection Framework (LIDET)**, introduced in our ICWSM 2025 paper.
 
 ## 📘 Paper Title
-**Latent Influence Network: Uncovering Hidden Influence Pathways in Social Media**  
-Chenhao Gu, Zainab Zaidi, Shanika Karunasekera, Ling Luo
+**LIN: Latent Influence Network for Discovering Hidden Directed Influence Links on Social Media**  
 
 ## 🔍 Overview
 
@@ -52,23 +51,8 @@ The framework supports multiple datasets. Instructions for obtaining and preproc
 - Achieves **99% classification accuracy** on COVID-19 Twitter data.
 - Generalizes across multiple real-world datasets.
 
-## 📄 Citation
-
-```bibtex
-@inproceedings{gu2025latent,
-  title={Latent Influence Network: Uncovering Hidden Influence Pathways in Social Media},
-  author={Gu, Chenhao and Zaidi, Zainab and Karunasekera, Shanika and Luo, Ling},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2025}
-}
-```
-
-## 🔗 Links
-
-- [Paper (coming soon)](https://arxiv.org/abs/...)
-- [Project Website](https://gudan.me/lin-lidet)
 
 ## 📬 Contact
 
 For questions or collaborations, please contact:  
-**Chenhao Gu** – [chenhao.gu@student.unimelb.edu.au](mailto:chenhao.gu@student.unimelb.edu.au)
+**Chenhao Gu** – [chenhao.gu@unimelb.edu.au](mailto:chenhao.gu@unimelb.edu.au)
