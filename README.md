@@ -55,4 +55,4 @@ pip install -r requirements.txt
 ## 📬 Contact
 
 For questions or collaborations, please contact:  
-**Chenhao Gu** – [chenhao.gu@unimelb.edu.au](mailto:chenhao.gu@unimelb.edu.au)
+**Chenhao Gu** – [chenhao.gu1@unimelb.edu.au](mailto:chenhao.gu@unimelb.edu.au)
